@@ -15,11 +15,13 @@ function QuoteAuthor() {
         }
     }
     return (
-        <div>
-            <h1>the author of the quote is: {quote.author}</h1>
-            <h1>Quote</h1>
-            <p>{quote.content}</p>
-            <button onClick={fetchNewQuote}>Give me another Quote</button>
+        <div className="all">
+            <div className="glass">
+                <h2 className="text-dark">The author is</h2>
+                <h1>{quote.author}</h1>
+                <p className="fst-italic">"{quote.content}"</p>
+                <button onClick={fetchNewQuote}>Give me another Quote</button>
+            </div>
         </div>
     );
 

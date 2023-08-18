@@ -1,0 +1,58 @@
+body {
+    background-image: url(./assets/assetsUno.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: wheat;
+
+}
+
+
+.all {
+    height: 100vh;
+}
+
+.glass {
+    text-align: center;
+    margin: 3em auto;
+    height: 500px;
+    width: 400px;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+
+}
+.glass button {
+    background-image: linear-gradient(to left, rgba(255, 146, 202, 0.75) 0%, rgba(145, 149, 251, 0.86) 100%);
+    box-shadow: 0 9px 25px -5px #df91fb;
+    font-family: 'Abel', sans-serif;
+    padding: 0.5em 1.9em;
+    margin: 2.3em 0 0 0;
+    border-radius: 7px;
+    font-size: 1.4em;
+    cursor: pointer;
+    color: wheat;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    transition: 0.3s linear;
+
+}
+
+.glass button:hover {
+    transform: translatey(2px);
+}
+
+.glass button:active {
+    transform: translatey(5px);
+}
